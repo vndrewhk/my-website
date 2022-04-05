@@ -1,0 +1,23 @@
+.socials-container {
+  color: #918d8d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-button {
+  padding-right: 1em;
+  color: #918d8d;
+}
+
+.contact-button a:visited {
+  text-decoration: none;
+}
+/*# sourceMappingURL=UI.css.map */

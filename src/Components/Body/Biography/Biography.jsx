@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import { Typography } from "@mui/material";
 
 import NameTypewriter from "./NameTypewriter";
+import ContactButtons from "../../UI/ContactButtons";
 
 const Biography = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const Biography = () => {
           love with all things React, and an avid enjoyer of Javascript.
         </Typography>
       </div>
+      <ContactButtons></ContactButtons>
       <Projects></Projects>
     </div>
   );
