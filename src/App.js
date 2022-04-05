@@ -12,8 +12,8 @@ function App() {
           <NavBar></NavBar>
 
           <Routes>
-            <Route path="/" title = "Home |Andrew Ma" element={<Biography />}  />
-            <Route path="/about*" title = "About |Andrew Ma"  element={<About />} />
+            <Route path="/"  element={<Biography />}  />
+            <Route path="/about*"  element={<About />} />
           </Routes>
           <Footer></Footer>
         </div>
