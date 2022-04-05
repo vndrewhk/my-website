@@ -17,4 +17,8 @@
           align-items: center;
   min-height: 100%;
 }
+
+.Typewriter__cursor {
+  font-size: 20px;
+}
 /*# sourceMappingURL=Biography.css.map */

@@ -1,6 +1,6 @@
 .app-wrapper {
   min-height: 100vh;
-  min-width: 100vw;
+  /* min-width: 100vw; */
   background-color: #1b1b23;
   color: #fff;
 }
