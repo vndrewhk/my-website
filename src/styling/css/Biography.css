@@ -1,3 +1,8 @@
+.biography-container {
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
 .typewriter-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5,7 +10,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 2px solid red;
+  min-height: 88px;
+}
+
+.wrap {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .Typewriter {
@@ -16,6 +27,7 @@
       -ms-flex-align: center;
           align-items: center;
   min-height: 100%;
+  font-size: 20px;
 }
 
 .Typewriter__cursor {

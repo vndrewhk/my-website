@@ -1,5 +1,5 @@
 import "./styling/css/App.css";
-import Biography from "./Components/Body/Biography";
+import Biography from "./Components/Body/Biography/Biography";
 import NavBar from "./Components/Nav/NavBar";
 import Footer from "./Components/Footer/Footer";
 import { BrowserRouter, Switch, Route, Routes, Link } from "react-router-dom";
@@ -9,12 +9,14 @@ function App() {
     <BrowserRouter>
       <div className="app-wrapper">
         <div className="main_body">
-          <NavBar></NavBar>
+          <div>
+            <NavBar></NavBar>
 
-          <Routes>
-            <Route path="/"  element={<Biography />}  />
-            <Route path="/about/"  element={<About />} />
-          </Routes>
+            <Routes>
+              <Route path="/" element={<Biography />} />
+              <Route path="/about/" element={<About />} />
+            </Routes>
+          </div>
           <Footer></Footer>
         </div>
       </div>
