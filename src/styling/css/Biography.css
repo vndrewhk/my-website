@@ -21,4 +21,43 @@
 .Typewriter__cursor {
   font-size: 20px;
 }
+
+.gradient-text {
+  font-family: "Abril Fatface", sans-serif;
+  background: -webkit-gradient(linear, left top, right top, from(crimson), color-stop(pink), to(springgreen));
+  background: linear-gradient(to right, crimson, pink, springgreen);
+  background-size: 200% 200%;
+  -webkit-animation: rainbow 2s ease-in-out infinite;
+          animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(255, 255, 255, 0);
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  font-weight: 900;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
 /*# sourceMappingURL=Biography.css.map */

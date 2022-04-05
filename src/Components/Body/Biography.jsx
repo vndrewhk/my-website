@@ -9,7 +9,9 @@ const Biography = () => {
   return (
     <div>
       <div className="typewriter-container">
-        <h2>Andrew Ma -&nbsp;</h2>
+        <div className = "wrap">
+          <h2 className="gradient-text">Andrew Ma -&nbsp;</h2>
+        </div>
         <Typewriter
           options={{
             cursorClassName: "Typewriter__cursor",

@@ -16,3 +16,33 @@
   //   size: 100px;
   //   border: 2px solid red;
 }
+
+.gradient-text {
+  font-family: "Abril Fatface", sans-serif;
+  background: linear-gradient(to right, crimson, pink, springgreen);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(255, 255, 255, 0);
+  //   font-size: 10rem;
+  //   width: 80vw;
+  //   margin: 30vh auto;
+  //   display: block;
+  //   text-align: center;
+  transition: color 0.2s ease-in-out;
+  //   text-transform: uppercase;
+  font-weight: 900;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
