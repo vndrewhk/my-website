@@ -1,11 +1,12 @@
 import { useEffect } from "react";
 
-const Biography = () => {
+const About = () => {
   useEffect(() => {
-    document.title = "Home | Andrew Ma";
+    document.title = "About | Andrew Ma";
   }, []);
   return (
     <div>
+      ABOUT
       <p>
         I'm a developer and designer striving to create experiences that empower
         people.
@@ -14,4 +15,4 @@ const Biography = () => {
   );
 };
 
-export default Biography;
+export default About;

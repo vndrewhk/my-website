@@ -4,11 +4,11 @@ const NavBar = () => {
   return (
     <div className="navBar">
       {/* style={{ textDecoration: "none" }} */}
-      <NavLink className="mainNav" to="/">
+      <NavLink className="mainNav" to="/" title="Home|Andrew Ma">
         <h2>Andrew Ma</h2>
       </NavLink>
       <div className="headerLinks">
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/about" title="About|Andrew Ma">About</NavLink>
         <NavLink to="/resume">Resume</NavLink>
       </div>
     </div>
