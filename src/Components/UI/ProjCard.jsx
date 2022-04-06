@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import "../../styling/css/ProjCard.css";
+import { useState } from "react";
 
 // import "../../assets/images/pomodoro.png";
 
@@ -19,6 +20,7 @@ const ProjCard = (props) => {
       color="primary"
     />
   ));
+
   // prbably will have to map out the ids for chips
 
   return (
