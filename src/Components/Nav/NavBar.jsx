@@ -8,13 +8,15 @@ const NavBar = () => {
     <div className="navBar">
       {/* style={{ textDecoration: "none" }} */}
       <NavLink className="mainNav" to="/" title="Home|Andrew Ma">
-        <h2>Andrew Ma</h2>
+        <h2 className="hover-underline-animation">Andrew Ma</h2>
       </NavLink>
       <div className="headerLinks">
         <NavLink to="/about" title="About|Andrew Ma">
-          About
+          <span className="hover-underline-animation">About</span>
         </NavLink>
-        <NavLink to="/resume">Resume</NavLink>
+        <NavLink to="/resume">
+          <span className="hover-underline-animation">Resume</span>
+        </NavLink>
       </div>
     </div>
   );
