@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;CACtB;;AACD,AAAA,eAAe,CAAC;EAEd,aAAa,EAAE,IAAI;CACpB;;AAED,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAgB;EAClC,aAAa,EAAE,IAAI;CAGpB;;AAUD,AAAA,aAAa,CAAC;EACZ,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CACb;;AAED,AAAA,aAAa,CAAC;EACZ,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "../../scss/ProjCard.scss"
+    ],
+    "names": [],
+    "file": "ProjCard.css"
+}

@@ -1,9 +1,10 @@
 import "../../styling/css/Footer.css";
+import ContactButtons from "../UI/ContactButtons";
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      <div>Email - Linked In - Github </div>
+      <ContactButtons></ContactButtons>
       <div>Designed and developed by Andrew Ma</div>
     </div>
   );

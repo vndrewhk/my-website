@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+}
+
+.card-container {
+  margin-bottom: 20px;
+}
+
+.project-card {
+  border: 2px solid #5b5e86;
+  border-radius: 20px;
+}
+
+.card-content {
+  background-color: #1b1b23;
+  color: white;
+}
+
+.card-actions {
+  background-color: #1b1b23;
+  color: white;
+}
+/*# sourceMappingURL=ProjCard.css.map */

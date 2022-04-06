@@ -1,6 +1,7 @@
 .biography-container {
   padding-top: 25%;
   padding-bottom: 25%;
+  max-width: 850px;
 }
 
 .typewriter-container {
@@ -11,6 +12,7 @@
       -ms-flex-align: center;
           align-items: center;
   min-height: 88px;
+  margin-bottom: 0.5rem;
 }
 
 .wrap {
@@ -47,6 +49,25 @@
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
   font-weight: 900;
+}
+
+.biography {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 50%;
+}
+
+.biography h6 {
+  margin-bottom: 1rem;
+}
+
+.contact-section {
+  padding-top: 2rem;
 }
 
 @-webkit-keyframes rainbow {

@@ -1,12 +1,14 @@
 .biography-container {
   padding-top: 25%;
   padding-bottom: 25%;
+  max-width: 850px;
 }
 .typewriter-container {
   display: flex;
   align-items: center;
-//   border: 2px solid red;
+  //   border: 2px solid red;
   min-height: 88px;
+  margin-bottom: 0.5rem;
 }
 
 .wrap {
@@ -44,6 +46,19 @@
   transition: color 0.2s ease-in-out;
   //   text-transform: uppercase;
   font-weight: 900;
+}
+
+.biography {
+  display: flex;
+  flex-direction: column;
+  min-height: 50%;
+  h6 {
+    margin-bottom: 1rem;
+  }
+}
+
+.contact-section {
+  padding-top: 2rem;
 }
 
 @keyframes rainbow {
