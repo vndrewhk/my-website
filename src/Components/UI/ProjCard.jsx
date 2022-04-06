@@ -4,10 +4,23 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import Chip from "@mui/material/Chip";
+import Stack from "@mui/material/Stack";
 import "../../styling/css/ProjCard.css";
 
 // import "../../assets/images/pomodoro.png";
+
 const ProjCard = (props) => {
+  const chipMap = props.skills.map((skill) => (
+    <Chip
+      className="chip"
+      key={`${skill}_${props.cardTitle}`}
+      label={skill}
+      color="primary"
+    />
+  ));
+  // prbably will have to map out the ids for chips
+
   return (
     <div className="card-container">
       <a href={props.url} target="_blank" rel="noopener noreferrer">
@@ -28,9 +41,10 @@ const ProjCard = (props) => {
             </Typography>
             <Typography variant="body2">{props.cardText}</Typography>
           </CardContent>
-          <CardActions className="card-actions">
-            <Button size="small">Share</Button>
-            <Button size="small">Learn More</Button>
+          <CardActions className="chips">
+            {/* <Chip label="primary" color="primary" />
+            <Chip label="primary" color="primary" /> */}
+            {chipMap}
           </CardActions>
         </Card>
       </a>
