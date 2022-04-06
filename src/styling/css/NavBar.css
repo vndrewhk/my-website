@@ -1,5 +1,4 @@
 .navBar {
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,7 +13,6 @@
 }
 
 .mainNav {
-  border: 2px solid blue;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,7 +23,6 @@
 }
 
 .headerLinks {
-  border: 2px solid green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

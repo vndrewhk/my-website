@@ -3,7 +3,7 @@ import Biography from "./Components/Body/Biography/Biography";
 import NavBar from "./Components/Nav/NavBar";
 import Footer from "./Components/Footer/Footer";
 import { BrowserRouter, Switch, Route, Routes, Link } from "react-router-dom";
-import About from "./Components/Body/About";
+import About from "./Components/Body/About/About";
 function App() {
   return (
     <BrowserRouter>
