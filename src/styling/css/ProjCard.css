@@ -10,7 +10,9 @@
 }
 
 .card-container :hover .project-card {
-  border: 2px solid #c5bfbf;
+  border: 2px solid #5b5baa;
+  -webkit-box-shadow: 5px 5px 20px 5px #38385f;
+          box-shadow: 5px 5px 20px 5px #38385f;
 }
 
 .card-container :not(:hover) {

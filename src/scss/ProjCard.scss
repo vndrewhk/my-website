@@ -6,8 +6,11 @@
     -o-transition: 0.5s;
     transition: 0.5s;
     // box-shadow: 5px 5px 5px 5px white;
+    // transform-origin: center;
     .project-card {
-      border: 2px solid rgb(197, 191, 191);
+      border: 2px solid #5b5baa;
+      // border-bottom: 6px solid rgb(155, 147, 147);
+      box-shadow: 5px 5px 20px 5px #38385f;
     }
   }
   :not(:hover) {
