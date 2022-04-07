@@ -26,7 +26,13 @@ const ProjCard = (props) => {
   return (
     <div className="card-container">
       <a href={props.url} target="_blank" rel="noopener noreferrer">
-        <Card sx={{ maxWidth: 400, borderRadius: 4 }} className="project-card">
+        <Card
+          sx={{
+            maxWidth: 400,
+            borderRadius: 4,
+          }}
+          className="project-card"
+        >
           <CardMedia
             component="img"
             height="300"
