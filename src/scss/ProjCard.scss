@@ -1,6 +1,22 @@
 .card-container {
-  //   border: 2px solid red;
-  margin-bottom: 20px;
+  :hover {
+    transform: translateY(-15px);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    // box-shadow: 5px 5px 5px 5px white;
+    .project-card {
+      border: 2px solid rgb(197, 191, 191);
+    }
+  }
+  :not(:hover) {
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  margin-bottom: 25px;
   a {
     text-decoration: none;
   }
@@ -13,25 +29,24 @@
   //   padding: 20px;
 }
 
-// .card-media {
-//   border-bottom: 2px solid black;
-// //   background-color: yellow;
-//   padding-top: 20px;
-//   padding-left: 20px;
-//   padding-right: 20px;
-// }
+.card-media {
+  pointer-events: none;
+}
 
 .card-content {
   background-color: #1b1b23;
   color: white;
+  pointer-events: none;
 }
 
 .card-actions {
   background-color: #1b1b23;
   color: white;
+  pointer-events: none;
 }
 
 .chips {
+  pointer-events: none;
   display: flex;
   //   justify-content: center;
   flex-wrap: wrap;

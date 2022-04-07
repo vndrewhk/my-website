@@ -27,21 +27,22 @@ const ProjCard = (props) => {
     <div className="card-container">
       <a href={props.url} target="_blank" rel="noopener noreferrer">
         <Card
+          className="project-card"
           sx={{
             maxWidth: 400,
             borderRadius: 4,
+            boxShadow: 3,
+            "&:hover": {
+              boxShadow: 3,
+            },
           }}
-          className="project-card"
         >
           <CardMedia
+            className="card-media"
             component="img"
             height="300"
-            //   image={pomodoro}
             image={props.cardImage.imageUrl}
-            // image={"../../assets/images/pomodoro.png"}
-            //   src="../../assets/images/pomodoro.png"
             alt={props.cardImage.imageAlt}
-            className="card-media"
           />
           <CardContent className="card-content">
             <Typography gutterBottom variant="h5" component="div">

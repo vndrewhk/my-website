@@ -1,5 +1,21 @@
 .card-container {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.card-container :hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card-container :hover .project-card {
+  border: 2px solid #c5bfbf;
+}
+
+.card-container :not(:hover) {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .card-container a {
@@ -11,17 +27,24 @@
   border-radius: 20px;
 }
 
+.card-media {
+  pointer-events: none;
+}
+
 .card-content {
   background-color: #1b1b23;
   color: white;
+  pointer-events: none;
 }
 
 .card-actions {
   background-color: #1b1b23;
   color: white;
+  pointer-events: none;
 }
 
 .chips {
+  pointer-events: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
