@@ -4,6 +4,7 @@ import "../../../styling/css/Projects.css";
 
 import pomodoro from "../../../assets/images/pomodoro.png";
 import tftracker from "../../../assets/images/TFTracker.png";
+import youmightlike from "../../../assets/images/youmightlike.jpg";
 
 const Projects = () => {
   return (
@@ -32,6 +33,28 @@ const Projects = () => {
             "HTML",
           ]}
         ></ProjCard>
+
+        <ProjCard
+          url="https://youmightlike.vercel.app/"
+          cardImage={{
+            imageUrl: youmightlike,
+            imageAlt: "You Might Like Image",
+          }}
+          cardTitle={"You Might Like"}
+          cardText={
+            "A web application meant to help users discover artists they may like based off of related artists and genres."
+          }
+          skills={[
+            "Frontend Development",
+            "NextJS",
+            "ReactJS",
+            "JavaScript",
+            "CSS3",
+            "SCSS",
+            "HTML",
+          ]}
+        ></ProjCard>
+
         <ProjCard
           url="https://tft-tracker.vercel.app/"
           cardImage={{
@@ -50,23 +73,6 @@ const Projects = () => {
             "CSS",
             "HTML",
             "Firebase",
-          ]}
-        ></ProjCard>
-        <ProjCard
-          cardImage={{
-            imageUrl: pomodoro,
-            imageAlt: "Pomodoreact Image",
-          }}
-          cardTitle={"Pomodoreact"}
-          cardText={
-            "A general purpose pomodoro application to track and display studying habits."
-          }
-          skills={[
-            "Frontend Development",
-            "ReactJS",
-            "JavaScript",
-            "CSS",
-            "HTML",
           ]}
         ></ProjCard>
       </div>
