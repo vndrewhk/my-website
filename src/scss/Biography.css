@@ -1,0 +1,96 @@
+.biography-container {
+  padding-top: 25%;
+  padding-bottom: 25%;
+  max-width: 850px;
+}
+
+.typewriter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 90px;
+  margin-bottom: 0.5rem;
+}
+
+.wrap {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.Typewriter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+  font-size: 20px;
+}
+
+.Typewriter__cursor {
+  font-size: 20px;
+}
+
+.gradient-text {
+  font-family: "Abril Fatface", sans-serif;
+  background: -webkit-gradient(linear, left top, right top, from(crimson), color-stop(pink), to(springgreen));
+  background: linear-gradient(to right, crimson, pink, springgreen);
+  background-size: 200% 200%;
+  -webkit-animation: rainbow 2s ease-in-out infinite;
+          animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(255, 255, 255, 0);
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  font-weight: 900;
+}
+
+.biography {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 50%;
+}
+
+.biography h6 {
+  margin-bottom: 1rem;
+}
+
+.contact-section {
+  padding-top: 2rem;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+/*# sourceMappingURL=Biography.css.map */

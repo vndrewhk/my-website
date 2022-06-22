@@ -1,0 +1,63 @@
+.card-container {
+  margin-bottom: 25px;
+}
+
+.card-container :hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card-container :hover .project-card {
+  border: 2px solid #5b5baa;
+  -webkit-box-shadow: 5px 5px 20px 5px #38385f;
+          box-shadow: 5px 5px 20px 5px #38385f;
+}
+
+.card-container :not(:hover) {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.card-container a {
+  text-decoration: none;
+}
+
+.project-card {
+  border: 2px solid #5b5e86;
+  border-radius: 20px;
+}
+
+.card-media {
+  pointer-events: none;
+}
+
+.card-content {
+  background-color: #1b1b23;
+  color: white;
+  pointer-events: none;
+}
+
+.card-actions {
+  background-color: #1b1b23;
+  color: white;
+  pointer-events: none;
+}
+
+.chips {
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #1b1b23;
+  color: white;
+}
+
+.chip {
+  min-width: 6em;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=ProjCard.css.map */

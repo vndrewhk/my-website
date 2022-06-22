@@ -21,8 +21,10 @@ const Biography = () => {
           </Typography>
 
           <Typography variant="body1" component="p">
-            I'm a <b>Mechanical Engineering</b> student at Ryerson University,
-            and currently an engineering intern at <b>ABC Technologies.</b> I'm
+            I'm a <b>Frontend Developer</b> with experience in{" "}
+            <b>Mechanical Engineering</b> from{" "}
+            <b>Toronto Metropolitan University</b>, currently working at{" "}
+            <b>ABC Technologies</b> in engineering and program management. I'm
             in love with all things React, and an avid enjoyer of Javascript.
           </Typography>
         </div>

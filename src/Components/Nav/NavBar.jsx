@@ -11,9 +11,9 @@ const NavBar = () => {
         <h2 className="hover-underline-animation">Andrew Ma</h2>
       </NavLink>
       <div className="headerLinks">
-        <NavLink to="/about" title="About|Andrew Ma">
+        {/* <NavLink to="/about" title="About|Andrew Ma">
           <span className="hover-underline-animation">About</span>
-        </NavLink>
+        </NavLink> */}
         <NavLink to="/resume">
           <span className="hover-underline-animation">Resume</span>
         </NavLink>

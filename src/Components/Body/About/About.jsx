@@ -9,8 +9,8 @@ const About = () => {
     <div className="about-container">
       ABOUT
       <p>
-        I'm a developer and designer striving to create experiences that empower
-        people.
+        I'm a developer and designer from Toronto Metropolitan University,
+        striving to create experiences that empower people.
       </p>
     </div>
   );

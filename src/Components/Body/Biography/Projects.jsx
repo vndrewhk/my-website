@@ -5,6 +5,7 @@ import "../../../styling/css/Projects.css";
 import pomodoro from "../../../assets/images/pomodoro.png";
 import tftracker from "../../../assets/images/TFTracker.png";
 import youmightlike from "../../../assets/images/youmightlike.jpg";
+import twitter from "../../../assets/images/twitter.webp";
 
 const Projects = () => {
   return (
@@ -16,24 +17,24 @@ const Projects = () => {
       </div>
       <div className="projects-shelf">
         <ProjCard
-          url="https://pomodoreact-f0pwsl6bu-vndrewhk.vercel.app/"
+          url="https://blabber-amber.vercel.app/"
           cardImage={{
-            imageUrl: pomodoro,
-            imageAlt: "Pomodoreact Image",
+            imageUrl: twitter,
+            imageAlt: "Blabber Image",
           }}
-          cardTitle={"Pomodoreact"}
+          cardTitle={"Blabber"}
           cardText={
-            "A general purpose pomodoro application to track and display studying habits."
+            "A Twitter clone made from scratch, using NextJS for the frontend and backend, & Firebase for data management."
           }
           skills={[
             "Frontend Development",
+            "NextJS",
             "ReactJS",
-            "JavaScript",
-            "CSS",
+            "Firebase",
+            "Tailwind CSS",
             "HTML",
           ]}
         ></ProjCard>
-
         <ProjCard
           url="https://youmightlike.vercel.app/"
           cardImage={{
@@ -51,6 +52,24 @@ const Projects = () => {
             "JavaScript",
             "CSS3",
             "SCSS",
+            "HTML",
+          ]}
+        ></ProjCard>
+        <ProjCard
+          url="https://pomodoreact-f0pwsl6bu-vndrewhk.vercel.app/"
+          cardImage={{
+            imageUrl: pomodoro,
+            imageAlt: "Pomodoreact Image",
+          }}
+          cardTitle={"Pomodoreact"}
+          cardText={
+            "A general purpose pomodoro application to track and display studying habits."
+          }
+          skills={[
+            "Frontend Development",
+            "ReactJS",
+            "JavaScript",
+            "CSS",
             "HTML",
           ]}
         ></ProjCard>
