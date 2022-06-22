@@ -22,7 +22,7 @@ const NameTypewriter = () => {
             '<h2>a <span style="color: #27ae60;">developer</span> and <span style="color: #27ae60;">designer</span>.</h2>',
             `<h2><span style="color: #27ae60;">engineering @ TMU</span>.</h2>`,
             '<h2>a <span style="color: #27ae60;">problem solver</span>.</h2>',
-            '<h2>an <span style="color: #27ae60;">avid gamer</span>.</h2>',
+            '<h2>an <span style="color: #27ae60;">tech lover</span>.</h2>',
             '<h2>a <span style="color: #27ae60;">VR enthusiast</span>.</h2>',
           ],
           autoStart: true,
