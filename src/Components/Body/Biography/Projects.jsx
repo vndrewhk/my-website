@@ -6,6 +6,7 @@ import pomodoro from "../../../assets/images/pomodoro.png";
 import tftracker from "../../../assets/images/TFTracker.png";
 import youmightlike from "../../../assets/images/youmightlike.jpg";
 import twitter from "../../../assets/images/twitter.webp";
+import waldo from "../../../assets/images/LeagueWaldo.jpeg";
 
 const Projects = () => {
   return (
@@ -52,6 +53,25 @@ const Projects = () => {
             "JavaScript",
             "CSS3",
             "SCSS",
+            "HTML",
+          ]}
+        ></ProjCard>
+        <ProjCard
+          url="https://where-am-i-ashy.vercel.app/"
+          cardImage={{
+            imageUrl: waldo,
+            imageAlt: "Where Am I?",
+          }}
+          cardTitle={"Where Am I?"}
+          cardText={
+            "Where's Waldo mini-game using React and Firebase as a BaaS"
+          }
+          skills={[
+            "Frontend Development",
+            "ReactJS",
+            "JavaScript",
+            "Firebase",
+            "TailwindCSS",
             "HTML",
           ]}
         ></ProjCard>
