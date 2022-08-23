@@ -1,4 +1,38 @@
 .about-container {
   height: 100vh;
+  margin-top: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 75vw;
+}
+
+.text-excerpt {
+  border-left: 2px solid green;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #445581;
+}
+
+.image {
+  max-width: 30vw;
+  border-radius: 10%;
 }
 /*# sourceMappingURL=About.css.map */

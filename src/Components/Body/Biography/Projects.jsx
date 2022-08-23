@@ -10,7 +10,7 @@ import { Fade } from "react-reveal";
 
 const Projects = () => {
   return (
-    <Fade bottom cascade>
+    <Fade bottom>
       <div className="projects-container">
         <div className="projects-header">
           <Typography variant="h4" component="h2">
